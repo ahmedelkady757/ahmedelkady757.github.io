@@ -33,7 +33,7 @@
     <!-- Hero Section -->
     <section id="hero">
         <div class="hero-content">
-            <img src="me.jpg" alt="Ahmed Elkady" class="profile-img">
+            <img src="me.png" alt="Ahmed Elkady" class="profile-img">
             <h2 class="sub-title">Hi there, I am</h2>
             <h1 class="main-title">Ahmed Elkady <span class="wave">👋</span></h1>
             <h3 class="typed-text">Native Mobile App Developer</h3>
@@ -99,7 +99,23 @@
         </div>
 
         <div class="projects-grid wrapper">
-            <!-- Project 1 -->
+            <!-- Project 1 - Top-League (Featured) -->
+            <div class="project-card glassmorphism">
+                <div class="project-indicator ios">iOS</div>
+                <h3>Top-League</h3>
+                <p>Architected a multi-sport iOS app (Football, Basketball, Cricket &amp; Tennis) in Swift using the MVP pattern with a fully protocol-based NetworkService layer, enabling isolated unit testing via a MockNetworkService.</p>
+                <ul class="features-list">
+                    <li>Core Data persistence for offline favorites</li>
+                    <li>Full EN / AR bilingual &amp; runtime RTL switching</li>
+                    <li>Dark / Light theme toggle persisted via SceneDelegate</li>
+                    <li>Unit Tests via MockNetworkService</li>
+                </ul>
+                <div class="project-links">
+                    <a href="https://github.com/ahmedelkady757/Top-League" target="_blank">View Repository →</a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
             <div class="project-card glassmorphism">
                 <div class="project-indicator ios">iOS</div>
                 <h3>Todoist</h3>
@@ -190,6 +206,9 @@
 
     <footer>
         <p>&copy; 2026 Ahmed Elkady.</p>
+        <div style="margin-top: 10px;">
+            <img src="https://komarev.com/ghpvc/?username=ahmedelkady-portfolio&label=Portfolio+Views&color=3b82f6&style=flat" alt="Portfolio Views" />
+        </div>
     </footer>
 
     <script src="script.js"></script>
