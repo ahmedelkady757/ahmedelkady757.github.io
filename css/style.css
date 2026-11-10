@@ -57,6 +57,10 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 .nav nav a { font-size: 15px; font-weight: 500; text-decoration: none; position: relative; }
 .nav nav a::after { content: ""; position: absolute; left: 0; right: 0; bottom: -3px; height: 1px; background: currentColor; transform: scaleX(0); transform-origin: right; transition: transform .35s cubic-bezier(.2,.8,.2,1); }
 .nav nav a:hover::after { transform: scaleX(1); transform-origin: left; }
+.nav nav a.nav__cv { display: inline-flex; align-items: center; gap: 6px; margin: -7px 0; padding: 6px 13px; border: 1.5px solid currentColor; border-radius: 99px; transition: background-color .25s; }
+.nav nav a.nav__cv::after { display: none; }
+.nav nav a.nav__cv:hover { background: color-mix(in srgb, currentColor 16%, transparent); }
+.nav__cv svg { width: 11px; height: 11px; }
 .progress { position: fixed; top: 0; left: 0; right: 0; height: 3px; z-index: 21; color: #14110C; transition: color .3s; }
 .progress i { display: block; height: 100%; background: currentColor; transform: scaleX(0); transform-origin: left; }
 

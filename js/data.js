@@ -9,6 +9,8 @@ export const OWNER = {
   email: 'ahmedelkady757@gmail.com',
   github: 'https://github.com/ahmedelkady757',
   linkedin: 'https://www.linkedin.com/in/ahmedelkady757/',
+  // Replace this file to update the CV everywhere on the site (the top bar uses the same path in index.html).
+  cv: 'assets/Ahmed_Khaled_Mahmoud_Resume.pdf',
 };
 
 // The four "how an app gets built" chapters. The phone acts each one out.

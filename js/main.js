@@ -174,6 +174,7 @@ function contactHTML() {
         <div class="cta rise">
           <a class="btn" href="${OWNER.linkedin}" target="_blank" rel="noopener">LinkedIn ${ARROW}</a>
           <a class="btn btn--ghost" href="${OWNER.github}" target="_blank" rel="noopener">GitHub ${ARROW}</a>
+          <a class="btn btn--ghost" href="${OWNER.cv}" target="_blank" rel="noopener">CV ${ARROW}</a>
         </div>
       </div>
       <div class="foot"><span>© 2026 ${esc(OWNER.name)}</span><span>${esc(OWNER.location)}</span></div>
